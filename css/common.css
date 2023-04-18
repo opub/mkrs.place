@@ -51,10 +51,15 @@ a:hover {
 
 .todo {
     width: 65%;
+    white-space: nowrap;
 }
 
 .banner {
     padding: 5px;
+    height: auto;
+    width: auto;
+    max-width: 882px;
+    max-height: 456px;
 }
 
 .tracker {
