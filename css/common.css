@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Xbka, 'General Sans', Helvetica, Arial, sans-serif;
+    src: url("/fonts/Xbka.otf") format("opentype");
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,11 +11,16 @@
 
 body,
 html {
-    background-color: #000000;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    font-size: 24px;
+    font-family: 'General Sans', Helvetica, Arial, sans-serif;
+    color: #fafafa;
+    background-color: #151515;
+    font-size: 20px;
     font-weight: 100;
+}
+
+p {
+    padding: 10px;
+    line-height: 28px;
 }
 
 a {
@@ -22,70 +32,50 @@ a {
 }
 
 a {
-    color: #ffffff;
+    color: #ffff00;
     text-decoration: none;
 }
 
 a:focus {
-    color: #ffff99;
+    color: #ffff00;
     outline: none !important;
 }
 
 a:hover {
-    color: #ffff99;
+    color: #ffff00;
     text-decoration: underline;
 }
 
-.content,
-.todo {
+.content {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-}
-
-.content {
-    width: 50%;
+    width: 70%;
     padding-bottom: 50px;
 }
 
-.todo {
-    width: 65%;
-    white-space: nowrap;
+i {
+    padding-right: 10px;
 }
 
-.banner {
-    padding: 5px;
-    height: auto;
-    width: auto;
-    max-width: 882px;
-    max-height: 456px;
-}
-
-.tracker {
-    padding: 5px;
+h1,
+h3 {
+    padding-top: 20px;
+    font-family: Xbka, 'General Sans', Helvetica, Arial, sans-serif;
+    color: #ffff00;
 }
 
 h1 {
-    padding-left: 10px;
-    font-family: 'Roboto', sans-serif;
-    color: #ffff99;
-    font-size: 42px;
-    font-weight: 400;
+    font-size: 64px;
+    font-weight: 800;
 }
 
 h3 {
-    padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
     font-size: 30px;
     font-weight: 400;
 }
 
-h5 {
-    padding-left: 80px;
-    font-family: 'Roboto', sans-serif;
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 100;
+.center {
+    margin: auto;
+    text-align: center;
 }
