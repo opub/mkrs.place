@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Xbka, 'General Sans', Helvetica, Arial, sans-serif;
-    src: url("/fonts/Xbka.otf") format("opentype");
+    font-family: Xbka;
+    src: url('../fonts/Xbka.otf') format('opentype');
 }
 
 * {
@@ -67,12 +67,12 @@ h3 {
 
 h1 {
     font-size: 64px;
-    font-weight: 800;
+    font-weight: 400;
 }
 
 h3 {
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .center {
